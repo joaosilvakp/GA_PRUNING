@@ -1,0 +1,14 @@
+# Ignore the data directory
+data/
+
+# Ignore training results
+training_results/
+
+# Ignore all PyTorch model files
+*.pth
+
+# Optional: Ignore common Mac/Python clutter
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
