@@ -1,37 +1,6 @@
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import torchvision
-import torchvision.transforms as transforms
-from torchvision import models
-from torch.utils.data import DataLoader
-import os
-from tqdm import tqdm
-import time
-import torch.backends.cudnn as cudnn
-import random
-from ga_utils import *
 from utils import *
-import torch.nn.utils.prune as prune
-import numpy as np
-import matplotlib.pyplot as plt
-import numpy as np
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import torchvision
-import torchvision.transforms as transforms
-from torchvision import models
-from torch.utils.data import DataLoader
-import os
-from tqdm import tqdm
-import time
 import torch.backends.cudnn as cudnn
-import random
 import torch.nn.utils.prune as prune
-import numpy as np
-import matplotlib.pyplot as plt
-import numpy as np
 from tqdm import tqdm
 import torch
 import torch.nn as nn
